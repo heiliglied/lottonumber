@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: Routes.main,
+      initialRoute: Routes.splash,
       routes: Routes.routes,
     );
   }
